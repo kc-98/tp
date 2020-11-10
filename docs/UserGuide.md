@@ -392,7 +392,7 @@ list lt/<list type>
 
 ![list_bookmark](images/list/list_all.png)
 
-
+*(Start of section written by Kai Chao)*
 ### Deleting of stock: `delete`
 Deletes the stock(s) using the stock's serial number from the inventory. Multiple stocks can be deleted simultaneously.
 
@@ -469,6 +469,7 @@ commands, only the prefix `/sn` is allowed.
 
 </div>
 
+*(End of section written by Kai Chao)*
 
 ### Find stocks from inventory: `find`
 
@@ -1158,6 +1159,8 @@ Type `stockview sn/ntuc1 sn/ntuc2` into the command box and enter.
 
 </div>
 
+*(Start of section written by Kai Chao)*
+
 ### Generating statistics: `stats`
 Generates a statistical view in a pie chart depicting the target fields.
 
@@ -1221,6 +1224,8 @@ and this is **intended**:
 
 ![statistics_startup](images/statistics/statistics_startup.png)
 </div>
+
+*(End of section written by Kai Chao)*
 
 ### Bookmarking stocks in the list: `bookmark`
 Bookmarks the desired stock(s). 
@@ -1625,6 +1630,7 @@ You will need to resize the columns and row of the excel sheet to see the full t
 
 </div>
 
+*(Start of section written by Kai Chao)*
 ### Clearing all data in Warenager: `clear`
 Clears all the existing data in Warenager.
 
@@ -1706,6 +1712,8 @@ you should see an existing table describing the latest stock viewed.
 ![tab_step6](images/tab/tab_step6.png)
 
 </div>
+
+*(End of section written by Kai Chao)*
 
 ### Saving data
 Data (all stocks in inventory in JSON) is automatically saved to
