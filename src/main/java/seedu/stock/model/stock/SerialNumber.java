@@ -62,7 +62,7 @@ public class SerialNumber {
     public boolean equals(Object other) {
         return other == this // short circuit if same object
                 || (other instanceof SerialNumber // instanceof handles nulls
-                && serialNumber.equals(((SerialNumber) other).serialNumber)); // state check
+                && serialNumber.toLowerCase().equals(((SerialNumber) other).serialNumber.toLowerCase())); // state check
     }
 
     @Override
